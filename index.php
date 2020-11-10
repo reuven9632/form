@@ -1,4 +1,4 @@
-<?php include_once "php/head.php";?>
+<?php include_once "php/head.php"; ?>
 
     <div class="container">
         <div class="forms">
@@ -24,4 +24,4 @@
         </div>
     </div>
 
-<?php include_once "php/footer.php";?>
+<?php include_once "php/footer.php"; ?>
