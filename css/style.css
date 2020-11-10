@@ -24,3 +24,14 @@ li{
     color: red;
     background-color: rgb(203, 221, 162);
 }
+.done-btn,
+.send-btn{
+    text-align: center;
+    color: #fff;
+    background-color: green;
+}
+.done-btn::hover,
+.send-btn::hover{
+    color: #fff;
+    background-color: blue;
+}
