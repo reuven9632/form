@@ -29,8 +29,10 @@ li{
     max-width: 300px;
     align-items: right;
 }
-
-.formAuthorization__login{
+.name{
+    margin-left: 25px;
+}
+.login{
     margin-left: 27px;
 }
 .formRegistration{
