@@ -13,25 +13,44 @@ li{
     padding: 0;
 }
 .container{
-    max-width: 1170px;      /*максимальная ширина блока*/
-    margin: 0 auto;         /*один из способов выравнивания столбца/блока по центру*/
+    /* max-width: 1170px;      максимальная ширина блока */
+    /* margin: 0 auto;         один из способов выравнивания столбца/блока по центру */
     padding: 0 15px;
-    text-align: center;
+    /* text-align: center; */
 }
 .forms{
     display: flex;
-    justify-content: space-between;
-    color: red;
+    justify-content: space-around;
+    color: rgba(207, 118, 46, 0.733);
     background-color: rgb(203, 221, 162);
 }
-.done-btn,
+.formAuthorization{
+    flex-direction: column;
+    max-width: 300px;
+    align-items: right;
+}
+
+.formAuthorization__login{
+    margin-left: 27px;
+}
+.formRegistration{
+    flex-direction: column;
+    max-width: 300px;
+    align-items: right;
+}
+.login-btn_span{
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(235, 141, 34);
+}
+.login-btn,
 .send-btn{
     text-align: center;
-    color: #fff;
-    background-color: green;
+    color: rgba(61, 124, 10, 0.781);
+    background-color: rgb(74, 155, 74);
 }
-.done-btn::hover,
-.send-btn::hover{
-    color: #fff;
-    background-color: blue;
+.login-btn:hover,
+.send-btn:hover{
+    color: rgba(16, 170, 98, 0.733);
+    background-color: rgba(59, 59, 187, 0.849);
 }
