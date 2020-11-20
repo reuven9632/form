@@ -1,4 +1,4 @@
-<!-- <\?php include_once "php/head.php"; ?> -->
+<?php include_once "php/title.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="php/title.php" type="text/html">
+    <!-- <link rel="stylesheet" href="php/title.php" type="text/html"> -->
     <title><?=$title?></title>
     <link href="https://fonts.googleapis.com/css?family=Fira+Sans:100,300,400,500,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
@@ -21,11 +21,13 @@
                 <label>
                     Enter your login
                     <input type="text" name="login" class="login" placeholder="login">
-                </label></br>
+                </label>
+                <div name=loginError style="color:red;"><?php $loginError?></div>
                 <label>
                     Enter your password
                     <input type="password" name="password" placeholder="password">
                 </label>
+                <div name=passwordError style="color:red;"><?php $passwordError?></div>
                 <button type="submit" class="login-btn"><span class="login-btn_span">L</span>ogin</button>
             </form>
 
@@ -34,15 +36,18 @@
                 <label>
                     Enter your name
                     <input type="text" name="name" class="name" placeholder="name">
-                </label></br>
+                </label>
+                <div name=nameError style="color:red;"><?php $nameError?></div>
                 <label>
                     Enter your login
                     <input type="text" name="login" class="login" placeholder="login">
-                </label></br>
+                </label>
+                <div name=loginError style="color:red;"><?php $loginError?></div>
                 <label>
                     Enter your password
                     <input type="password" name="password" placeholder="password">
                 </label>
+                <div name=passwordError style="color:red;"><?php $passwordError?></div>
                 <button type="submit" class="send-btn">send</button>
             </form>
         </div>
